@@ -6,7 +6,7 @@
                             <div class="row">
                                 <div class="col-md-12 col-lg-4">
                                     <div class="footer-widget mb-4">
-                                        <div class="footer-logo mb-4"> <a href="#"><img class="logo-bottom" src="images/logo/restatelg_white.png" alt="image"></a> </div>
+                                        <div class="footer-logo mb-4"> <a href="#"><img class="logo-bottom" src="images/logo/logowhite.jpg" alt="image"></a> </div>
                                         <p class="pb-20 text-white">Thank you for visiting this site. Hope you like it. We are always ready to provide excellent services for you.</p>
 										
                                         </div>
