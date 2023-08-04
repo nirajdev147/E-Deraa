@@ -80,7 +80,7 @@ if(isset($_POST['send']))
                                     <div class="contact-address">
                                         <h5 class="text-white">Address</h5>
                                         <span class="text-white">Biratnagar-4, Morang</span> <br>
-										<span class="text-white">Near PUSOE Campus</span> <br>
+										<span class="text-white">Gograha Chowk</span> <br>
 										</div>
                                 </li>
                                 <li class="d-flex mb-4"> <i class="fas fa-phone-alt text-white mr-2 font-13 mt-1"></i>

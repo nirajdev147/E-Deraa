@@ -88,7 +88,7 @@ if(isset($_REQUEST['calc']))
 						
                             <tr class="text-center font-18">
                                 <td><b>Amount</b></td>
-                                <td><b><?php echo '$'.$amount ; ?></b></td>
+                                <td><b><?php echo 'Rs.'.$amount ; ?></b></td>
                             </tr>
 							<tr class="text-center">
                                 <td><b>Total Duration</b></td>
@@ -100,15 +100,15 @@ if(isset($_REQUEST['calc']))
                             </tr>
 							<tr class="text-center">
                                 <td><b>Total Interest</b></td>
-                                <td><b><?php echo '$'.$interest ; ?></b></td>
+                                <td><b><?php echo 'Rs.'.$interest ; ?></b></td>
                             </tr>
 							<tr class="text-center">
                                 <td><b>Total Amount</b></td>
-                                <td><b><?php echo '$'.$pay ; ?></b></td>
+                                <td><b><?php echo 'Rs.'.$pay ; ?></b></td>
                             </tr>
 							<tr class="text-center">
                                 <td><b>Pay Per Month (EMI)</b></td>
-                                <td><b><?php echo '$'.$month ; ?></b></td>
+                                <td><b><?php echo 'Rs.'.$month ; ?></b></td>
                             </tr>
 							
                         </tbody>
