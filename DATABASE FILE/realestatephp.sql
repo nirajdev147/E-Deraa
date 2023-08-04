@@ -61,7 +61,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`aid`, `auser`, `aemail`, `apass`, `adob`, `aphone`) VALUES
-(9, 'admin', 'admin@gmail.com', '6812f136d636e737248d365016f8cfd5139e387c', '1994-12-06', '1470002569');
+(10, 'Niraj', 'devniraj4@gmail.com', 'kartik13', '2000-12-06', '987654321');
 
 -- --------------------------------------------------------
 
