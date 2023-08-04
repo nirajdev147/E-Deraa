@@ -9,6 +9,7 @@ if(isset($_REQUEST['insert']))
 	$pass=$_REQUEST['pass'];
 	$dob=$_REQUEST['dob'];
 	$phone=$_REQUEST['phone'];
+	$pass= sha1($pass);
 	
 	if(!empty($name) && !empty($email) && !empty($pass)  && !empty($dob) && !empty($phone))
 	{
@@ -80,7 +81,7 @@ if(isset($_REQUEST['insert']))
 										<input class="form-control" type="email" placeholder="Email" name="email">
 									</div>
 									<div class="form-group">
-										<input class="form-control" type="text" placeholder="Password" name="pass">
+										<input class="form-control" type="password" placeholder="Password" name="pass">
 									</div>
 									<div class="form-group">
 										<input class="form-control" type="date" placeholder="Date of Birth" name="dob">
