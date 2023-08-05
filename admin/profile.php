@@ -92,10 +92,7 @@ if(!isset($_SESSION['auser']))
 									<li class="nav-item">
 										<a class="nav-link active" data-toggle="tab" href="#per_details_tab">About</a>
 									</li>
-								<!--	<li class="nav-item">
-										<a class="nav-link" data-toggle="tab" href="#password_tab">Password</a>
-									</li>  -->
-								</ul>
+								
 							</div>	
 							<div class="tab-content profile-tab-cont">
 								
