@@ -234,7 +234,7 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`uid`, `uname`, `uemail`, `uphone`, `upass`, `utype`, `uimage`) VALUES
 (28, 'Sujata Shrestha', 'sujata@mail.com', '7777444455', '6812f136d636e737248d365016f8cfd5139e387c', 'agent', 'gr7.png'),
-(29, 'Anish Niraula', 'niraulaanish@mail.com', '7775552214', '6812f136d636e737248d365016f8cfd5139e387c', 'agent', 'avatarm2-min.jpg'),
+(29, 'Anisha Niraula', 'niraulaanisha@mail.com', '7775552214', '6812f136d636e737248d365016f8cfd5139e387c', 'agent', 'avatarm2-min.jpg'),
 (30, 'Bikram Bhattrai', 'bikram26@mail.com', '7896665555', '6812f136d636e737248d365016f8cfd5139e387c', 'agent', 'avatarm7-min.jpg'),
 (31, 'Megha Thapa', 'megha@mail.com', '7896547855', '6812f136d636e737248d365016f8cfd5139e387c', 'agent', 'user-default-3-min.png'),
 (32, 'Shiva Thakur', 'shiva@mail.com', '1458887969', '6812f136d636e737248d365016f8cfd5139e387c', 'agent', 'user-profile-min.png'),
