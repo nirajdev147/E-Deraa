@@ -65,10 +65,6 @@ if(isset($_REQUEST['login']))
 </head>
 <body>
 
-
-
-
-
 <div id="page-wrapper">
     <div class="row"> 
         <!--	Header start  -->
