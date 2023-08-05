@@ -107,28 +107,28 @@ include("config.php");
                             <div class="p-4 text-center hover-bg-white hover-shadow rounded mb-4 transation-3s"> 
 								<i class="flaticon-rent text-success flat-medium" aria-hidden="true"></i>
                                 <h5 class="text-secondary hover-text-success py-3 m-0"><a href="#">Selling Service</a></h5>
-                                <p>We help our users to buy and sell their houses.</p>
+                                <p>At e-Deraa, we go beyond just rentals – we also specialize in selling properties. Our experienced team is dedicated to maximizing the value of your property and ensuring a seamless selling process.</p>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <div class="p-4 text-center hover-bg-white hover-shadow rounded mb-4 transation-3s"> 
 								<i class="flaticon-for-rent text-success flat-medium" aria-hidden="true"></i>
                                 <h5 class="text-secondary hover-text-success py-3 m-0"><a href="#">Rental Service</a></h5>
-                                <p>We provide the service for users to get a required rental home around a particular place. </p>
+                                <p>At e-Deraa, we make finding your ideal rental a breeze. Our dedicated team of experts is committed to helping you discover the perfect home for your needs and budget. Connecting you with your ideal rental.</p>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <div class="p-4 text-center hover-bg-white hover-shadow rounded mb-4 transation-3s"> 
 								<i class="flaticon-list text-success flat-medium" aria-hidden="true"></i>
                                 <h5 class="text-secondary hover-text-success py-3 m-0"><a href="#">Property Listing</a></h5>
-                                <p>This is a dummy text for filling out spaces. Just some random words...</p>
+                                <p>At e-Deraa, we take pride in providing a diverse and high-quality property listing for you. Whether you're looking for a cozy apartment, a spacious house, or a commercial space, we have a wide range of options to choose from.</p>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <div class="p-4 text-center hover-bg-white hover-shadow rounded mb-4 transation-3s"> 
 								<i class="flaticon-diagram text-success flat-medium" aria-hidden="true"></i>
                                 <h5 class="text-secondary hover-text-success py-3 m-0"><a href="#">Legal Investment</a></h5>
-                                <p>This is a dummy text for filling out spaces. Just some random words...</p>
+                                <p>At e-Deraa, we offer exceptional opportunities for legal investment in the real estate market. Our carefully vetted projects ensure safety and attractive returns, making it a smart choice for growing your wealth.</p>
                             </div>
                         </div>
                     </div>
