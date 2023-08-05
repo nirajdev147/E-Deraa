@@ -57,7 +57,7 @@ if(isset($_POST['send']))
 
 <!--	Title
 	=========================================================-->
-<title>Real Estate PHP</title>
+<title>Contact</title>
 </head>
 <body>
 

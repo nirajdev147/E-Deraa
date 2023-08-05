@@ -77,7 +77,7 @@ if(isset($_REQUEST['reg']))
 
 <!--	Title
 	=========================================================-->
-<title>Real Estate PHP</title>
+<title>Register</title>
 </head>
 <body>
 

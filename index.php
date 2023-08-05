@@ -354,7 +354,7 @@ include("config.php");
                             <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/thumbnail4/1.jpg" alt="">
                                 <div class="text-white xy-center z-index-9 position-absolute text-center w-100">
 									<?php
-										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where city='Olisphis'");
+										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where city='Biratnagar'");
 											while($row=mysqli_fetch_array($query))
 												{
 										?>
@@ -369,7 +369,7 @@ include("config.php");
                             <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/thumbnail4/2.jpg" alt="">
                                 <div class="text-white xy-center z-index-9 position-absolute text-center w-100">
 									<?php
-										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where city='Awrerton'");
+										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where city='Itahari'");
 											while($row=mysqli_fetch_array($query))
 												{
 										?>
@@ -384,7 +384,7 @@ include("config.php");
                             <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/thumbnail4/3.jpg" alt="">
                                 <div class="text-white xy-center z-index-9 position-absolute text-center w-100">
                                     <?php
-										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where city='Floson'");
+										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where city='Kathmandu'");
 											while($row=mysqli_fetch_array($query))
 												{
 										?>
@@ -399,7 +399,7 @@ include("config.php");
                             <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/thumbnail4/4.jpg" alt="">
                                 <div class="text-white xy-center z-index-9 position-absolute text-center w-100">
                                     <?php
-										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where city='Ulmore'");
+										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where city='Pokhara'");
 											while($row=mysqli_fetch_array($query))
 												{
 										?>

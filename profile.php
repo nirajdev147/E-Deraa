@@ -69,7 +69,7 @@ if(isset($_POST['insert']))
 
 <!--	Title
 	=========================================================-->
-<title>Real Estate PHP</title>
+<title>Profile</title>
 </head>
 <body>
 

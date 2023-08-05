@@ -61,7 +61,7 @@ if(isset($_REQUEST['login']))
 <link rel="stylesheet" type="text/css" href="css/login.css">
 <!--	Title
 	=========================================================-->
-<title>Real Estate PHP</title>
+<title>Login</title>
 </head>
 <body>
 

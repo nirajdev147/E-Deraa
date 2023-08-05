@@ -33,7 +33,7 @@ include("config.php");
 
 <!--	Title
 	=========================================================-->
-<title>Real Estate PHP</title>
+<title>Agents</title>
 </head>
 <body>
 

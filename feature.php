@@ -41,7 +41,7 @@ if(!isset($_SESSION['uemail']))
 
 <!--	Title
 	=========================================================-->
-<title>Real Estate PHP</title>
+<title>Feature</title>
 </head>
 <body>
 
