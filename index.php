@@ -32,7 +32,7 @@ include("config.php");
 
 <!--	Title
 	=========================================================-->
-<title>Home </title>
+<title>e-Deraa: घर खोजौं</title>
 </head>
 <body>
 

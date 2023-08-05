@@ -45,7 +45,7 @@
                     </div>
                 </div>
                 <div class="row copyright">
-                    <div class="col-sm-6"> <span class="text-white">© <?php echo date('Y');?> Online Home Rental Service</span> </div>
+                    <div class="col-sm-6"> <span class="text-white">© <?php echo date('Y');?> e-Deraa</span> </div>
                     <div class="col-sm-6">
                         <ul class="line-menu text-white hover-text-primary float-right">
                             <li><a href="#">Privacy & Policy</a></li>
