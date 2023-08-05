@@ -209,21 +209,21 @@ include("config.php");
 									<i class="flaticon-reward flat-medium float-left d-table mr-4 text-success" aria-hidden="true"></i>
 									<div class="pl-2">
 										<h5 class="mb-3">Top Rated</h5>
-										<p>This is a dummy text for filling out spaces. This is just a dummy text for filling out blank spaces.</p>
+										<p>"Your Dream Home Awaits! Choose the Best. Top-rated rentals handpicked for you. Experience comfort, luxury, and convenience like never before. Start your journey with us now!"</p>
 									</div>
                                 </li>
                                 <li class="mb-4 text-white d-flex"> 
 									<i class="flaticon-real-estate flat-medium float-left d-table mr-4 text-success" aria-hidden="true"></i>
 									<div class="pl-2">
 										<h5 class="mb-3">Experience Quality</h5>
-										<p>This is a dummy text for filling out spaces. This is just a dummy text for filling out blank spaces.</p>
+										<p>"Experience Quality Living. Choose Us for Premium Rentals. Impeccably maintained homes, stylish interiors, and top-notch amenities. Elevate your living with our exceptional rental properties!"</p>
 									</div>
                                 </li>
                                 <li class="mb-4 text-white d-flex"> 
 									<i class="flaticon-seller flat-medium float-left d-table mr-4 text-success" aria-hidden="true"></i>
 									<div class="pl-2">
 										<h5 class="mb-3">Experienced Agents</h5>
-										<p>This is a dummy text for filling out spaces. This is just a dummy text for filling out blank spaces.</p>
+										<p>"Trust the Experts. Choose Us for Experienced Agents. Our seasoned professionals will guide you every step of the way. Find your perfect rental with the help of our knowledgeable team!"</p>
 									</div>
                                 </li>
                             </ul>
