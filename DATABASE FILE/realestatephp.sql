@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Aug 04, 2023 at 04:34 PM
+-- Generation Time: Aug 05, 2023 at 02:51 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -39,17 +39,7 @@ CREATE TABLE `about` (
 --
 
 INSERT INTO `about` (`id`, `title`, `content`, `image`) VALUES
-(10, 'About Us', '<div id=\"pgc-w5d0dcc3394ac1-0-0\" class=\"panel-grid-cell\">\r\n<div id=\"panel-w5d0dcc3394ac1-0-0-0\" class=\"so-panel widget widget_sow-editor panel-first-child panel-last-child\" data-index=\"0\">\r\n<div class=\"so-widget-sow-editor so-widget-sow-editor-base\">\r\n<div class=\"siteorigin-widget-tinymce textwidget\">\r\n<p class=\"text_all_p_tag_css\">Welcome to e-Deraa - Your Premier Home Rental Service!</p>\r\n
-
-<p class=\"text_all_p_tag_css\">At e-Deraa, we are dedicated to simplifying the process of finding your ideal home. With a diverse range of meticulously curated rental properties, we offer a personalized experience tailored to your needs and preferences.</p>\r\n
-
-<p class=\"text_all_p_tag_css\">What sets us apart is our commitment to excellence. We work tirelessly to ensure that every listing on our platform meets the highest standards of quality, safety, and comfort. Our team of experts carefully vet each property, conducting thorough inspections to guarantee that you only see the best options available. Our mission is to make renting a home a delightful and stress-free experience. We believe in transparency, reliability, and outstanding customer service, ensuring that you feel confident and secure in every step of your rental journey.</p>\r\n
-
-<div id=\"pgc-w5d0dcc3394ac1-0-0\" class=\"panel-grid-cell\">\r\n<div id=\"panel-w5d0dcc3394ac1-0-0-0\" class=\"so-panel widget widget_sow-editor panel-first-child panel-last-child\" data-index=\"0\">\r\n<div class=\"so-widget-sow-editor so-widget-sow-editor-base\">\r\n<div class=\"siteorigin-widget-tinymce textwidget\">\r\n<p class=\"text_all_p_tag_css\">Whether you are looking for a cozy apartment, a charming townhouse, or a spacious villa, we have a home to suit every lifestyle and budget. Our user-friendly platform and knowledgeable team are here to guide you towards the perfect rental, so you can settle in and start creating unforgettable memories.</p>\r\n
-
-<p class=\"text_all_p_tag_css\">Welcome to the future of home rentals. Welcome to e-Deraa.</p>\r\n
-
-</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>', '1.jpg');
+(10, 'About Us', '<div id=\"pgc-w5d0dcc3394ac1-0-0\" class=\"panel-grid-cell\">\r\n<div id=\"panel-w5d0dcc3394ac1-0-0-0\" class=\"so-panel widget widget_sow-editor panel-first-child panel-last-child\" data-index=\"0\">\r\n<div class=\"so-widget-sow-editor so-widget-sow-editor-base\">\r\n<div class=\"siteorigin-widget-tinymce textwidget\">\r\n<p class=\"text_all_p_tag_css\">Welcome to e-Deraa - Your Premier Home Rental Service!</p>\r\n<p class=\"text_all_p_tag_css\">At e-Deraa, we are dedicated to simplifying the process of finding your ideal home. With a diverse range of meticulously curated rental properties, we offer a personalized experience tailored to your needs and preferences.</p>\r\n<p class=\"text_all_p_tag_css\">What sets us apart is our commitment to excellence. We work tirelessly to ensure that every listing on our platform meets the highest standards of quality, safety, and comfort. Our team of experts carefully vet each property, conducting thorough inspections to guarantee that you only see the best options available. Our mission is to make renting a home a delightful and stress-free experience. We believe in transparency, reliability, and outstanding customer service, ensuring that you feel confident and secure in every step of your rental journey.</p>\r\n<div id=\"pgc-w5d0dcc3394ac1-0-0\" class=\"panel-grid-cell\">\r\n<div id=\"panel-w5d0dcc3394ac1-0-0-0\" class=\"so-panel widget widget_sow-editor panel-first-child panel-last-child\" data-index=\"0\">\r\n<div class=\"so-widget-sow-editor so-widget-sow-editor-base\">\r\n<div class=\"siteorigin-widget-tinymce textwidget\">\r\n<p class=\"text_all_p_tag_css\">Whether you are looking for a cozy apartment, a charming townhouse, or a spacious villa, we have a home to suit every lifestyle and budget. Our user-friendly platform and knowledgeable team are here to guide you towards the perfect rental, so you can settle in and start creating unforgettable memories.</p>\r\n<p class=\"text_all_p_tag_css\">Welcome to the future of home rentals. Welcome to e-Deraa.</p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>', 'abc.png');
 
 -- --------------------------------------------------------
 
@@ -111,13 +101,6 @@ CREATE TABLE `contact` (
   `message` varchar(250) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
---
--- Dumping data for table `contact`
---
-
-INSERT INTO `contact` (`cid`, `name`, `email`, `phone`, `subject`, `message`) VALUES
-(7, 'codeastro', 'asda@asd.com', '8888885454', 'codeastro.com', 'asdasdasd');
-
 -- --------------------------------------------------------
 
 --
@@ -131,15 +114,6 @@ CREATE TABLE `feedback` (
   `status` int(1) NOT NULL,
   `date` datetime NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `feedback`
---
-
-INSERT INTO `feedback` (`fid`, `uid`, `fdescription`, `status`, `date`) VALUES
-(7, 28, 'This is a demo feedback in order to use set it as Testimonial for the site. Just a simply dummy text rather than using lorem ipsum text lines.', 1, '2022-07-23 16:07:08'),
-(8, 33, 'This is great. This is just great. Hmmm, just a dummy text for users feedback.', 1, '2022-07-23 21:51:09'),
-(9, 37, 'nice app! Help ed me a lot', 0, '2023-08-04 17:10:23');
 
 -- --------------------------------------------------------
 
@@ -235,11 +209,10 @@ CREATE TABLE `user` (
 INSERT INTO `user` (`uid`, `uname`, `uemail`, `uphone`, `upass`, `utype`, `uimage`) VALUES
 (28, 'Sujata Shrestha', 'sujata@mail.com', '7777444455', '6812f136d636e737248d365016f8cfd5139e387c', 'agent', 'user2.png'),
 (29, 'Anisha Niraula', 'niraulaanisha@mail.com', '7775552214', '6812f136d636e737248d365016f8cfd5139e387c', 'agent', 'avatarm2-min.jpg'),
-(30, 'Bikram Bhattrai', 'bikram26@mail.com', '7896665555', '6812f136d636e737248d365016f8cfd5139e387c', 'agent', 'avatarm7-min.jpg'),
+(30, 'Bikram Bhattrai', 'bikram26@mail.com', '7896665555', '7110eda4d09e062aa5e4a390b0a572ac0d2c0220', 'agent', 'avatarm7-min.jpg'),
 (31, 'Megha Thapa', 'megha@mail.com', '7896547855', '6812f136d636e737248d365016f8cfd5139e387c', 'agent', 'user-default-3-min.png'),
-(32, 'Shiva Thakur', 'shiva@mail.com', '1458887969', '6812f136d636e737248d365016f8cfd5139e387c', 'agent', 'user-profile-min.png'),
 (34, 'Nikesh Ghimire', 'suman123@mail.com', '7850002587', '6812f136d636e737248d365016f8cfd5139e387c', 'agent', 'user-a-min.png'),
-(35, 'Bidur Mahato', 'bidur1@mail.com', '8542221140', '6812f136d636e737248d365016f8cfd5139e387c', 'agent', 'usric.png');
+(38, 'Niraj', 'niraj@gmail.com', '9812312312', '7110eda4d09e062aa5e4a390b0a572ac0d2c0220', 'agent', 'IMG_0863.JPG');
 
 --
 -- Indexes for dumped tables
@@ -343,7 +316,7 @@ ALTER TABLE `state`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `uid` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
+  MODIFY `uid` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=39;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
