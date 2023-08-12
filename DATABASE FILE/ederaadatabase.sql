@@ -212,7 +212,7 @@ INSERT INTO `user` (`uid`, `uname`, `uemail`, `uphone`, `upass`, `utype`, `uimag
 (30, 'Bikram Bhattrai', 'bikram26@mail.com', '7896665555', '7110eda4d09e062aa5e4a390b0a572ac0d2c0220', 'agent', 'avatarm7-min.jpg'),
 (31, 'Megha Thapa', 'megha@mail.com', '7896547855', '6812f136d636e737248d365016f8cfd5139e387c', 'agent', 'user-default-3-min.png'),
 (34, 'Nikesh Ghimire', 'suman123@mail.com', '7850002587', '6812f136d636e737248d365016f8cfd5139e387c', 'agent', 'user-a-min.png'),
-(38, 'Niraj', 'niraj@gmail.com', '9812312312', '7110eda4d09e062aa5e4a390b0a572ac0d2c0220', 'agent', 'IMG_0863.JPG');
+(38, 'Mukesh', 'mukesh@gmail.com', '9812312312', '7110eda4d09e062aa5e4a390b0a572ac0d2c0220', 'agent', 'IMG_0863.JPG');
 
 --
 -- Indexes for dumped tables
